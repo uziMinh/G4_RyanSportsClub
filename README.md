@@ -12,7 +12,7 @@ Nguyen Dinh Nhat Minh | Student1333929
 
 Published: https://uziminh.github.io/G4_RyanSportsClub/
 
-eProject report link: https://github.com/ThanhAnDo/eProject-GiftShop/tree/main/document
+eProject report link: https://github.com/uziMinh/G4_RyanSportsClub/tree/master/document
 
 ============================
 
