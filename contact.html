@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style_contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.jpg" /></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="activities.html">ACTIVITIES</a></li>
+                    <li><a href="membership.html">MEMBERSHIP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="login-container">
+                <form action="">
+                    <input type="text" placeholder="Username" id="username" required pattern="">
+                    <input type="text" placeholder="Password" id="psw" required pattern="">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-----geolocation----->
+        <section class="geoLocation">
+            <div class="container">
+                <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                    <p>Swing by for a smoothie, or leave us a message:</p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.6534528610628!2d106.66535049507218!3d10.786314612167246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1639750093730!5m2!1sen!2s"
+                            width="720" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="column">
+                        <form action="">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="country">Location</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="usa">USA</option>
+                                <option value="vn">Vietnam</option>
+                                <option value="korea">Korea</option>
+                            </select>
+                            <label for="comments">Comments</label>
+                            <textarea id="comments" name="comments" placeholder="Write something.."
+                                style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
