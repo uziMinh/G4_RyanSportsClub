@@ -182,7 +182,7 @@ body {
     padding: 15px;
     border-radius: 15px;
     border: none;
-    box-shadow: 0 0 15px rgb(225, 0, 255);
+    box-shadow: 0 0 15px #73ff00;
     color: white;
 }
 
@@ -221,8 +221,8 @@ textarea {
 input[type=submit] {
     margin: 10px auto;
     width: 120px;
-    background: rgb(225, 0, 255);
-    color: white;
+    background: #73ff00;
+    color: black;
     cursor: pointer;
 }
 
